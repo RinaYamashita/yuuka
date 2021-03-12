@@ -21,11 +21,11 @@ public class LoginViewModel extends ViewModel {
         this.loginRepository = loginRepository;
     }
 
-    LiveData<com.example.akikomi.ui.login.LoginFormState> getLoginFormState() {
+    public LiveData<com.example.akikomi.ui.login.LoginFormState> getLoginFormState() {
         return loginFormState;
     }
 
-    LiveData<com.example.akikomi.ui.login.LoginResult> getLoginResult() {
+    public LiveData<com.example.akikomi.ui.login.LoginResult> getLoginResult() {
         return loginResult;
     }
 

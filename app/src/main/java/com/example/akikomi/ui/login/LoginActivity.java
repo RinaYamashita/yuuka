@@ -1,4 +1,4 @@
-package com.example.myapplication.ui.login;
+package com.example.akikomi.ui.login;
 
 import android.app.Activity;
 

@@ -27,7 +27,7 @@ public class SplashActivity extends AppCompatActivity {
     private Runnable mSplashTask = new Runnable() {
         @Override
         public void run() {
-            Intent intent = new Intent(SplashActivity.this, LoginActivity.class);//画面遷移のためのIntentを準備
+            Intent intent = new Intent(SplashActivity.this, MainActivity.class);//画面遷移のためのIntentを準備
             startActivity(intent);//実際の画面遷移を開始
             finish();//現在のActivityを削除
         }

@@ -26,8 +26,6 @@ import android.widget.Toast;
 import com.example.akikomi.LogUpActivity;
 import com.example.akikomi.MainActivity;
 import com.example.akikomi.R;
-import com.example.akikomi.ui.login.LoginViewModel;
-import com.example.akikomi.ui.login.LoginViewModelFactory;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -40,7 +38,7 @@ public class LoginActivity extends AppCompatActivity {
         loginViewModel = ViewModelProviders.of(this, new LoginViewModelFactory())
                 .get(LoginViewModel.class);
 
-        final EditText usernameEditText = findViewById(R.id.username);
+        final EditText usernameEditText = findViewById(R.id.emailadress);
         final EditText passwordEditText = findViewById(R.id.password);
         final Button loginButton = findViewById(R.id.login);
         final ProgressBar loadingProgressBar = findViewById(R.id.loading);

@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.177" />
 
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/youremailadress"
         style="@style/Widget.AppCompat.AutoCompleteTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -45,7 +45,6 @@
         android:layout_height="49dp"
         android:layout_gravity="start"
         android:layout_marginStart="48dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="48dp"
         android:layout_marginBottom="304dp"
         android:background="#00C853"
@@ -53,11 +52,10 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintHorizontal_bias="0.43"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password"
-        app:layout_constraintVertical_bias="0.2"
-         />
+        app:layout_constraintTop_toBottomOf="@+id/youremailadress"
+        app:layout_constraintVertical_bias="0.711" />
 
     <TextView
         android:id="@+id/textView4"
@@ -94,7 +92,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#21A598"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/username"
+        app:layout_constraintBottom_toTopOf="@+id/emailadress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.069"
         app:layout_constraintStart_toStartOf="parent"

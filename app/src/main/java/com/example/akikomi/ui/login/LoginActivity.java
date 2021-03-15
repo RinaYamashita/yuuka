@@ -23,6 +23,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.akikomi.LogUpActivity;
 import com.example.akikomi.MainActivity;
 import com.example.akikomi.R;
 import com.example.akikomi.ui.login.LoginViewModel;
@@ -134,5 +135,10 @@ public class LoginActivity extends AppCompatActivity {
     public void goToMain(View view) {
         Intent toMain = new Intent(this, MainActivity.class);
         startActivity(toMain);
+    }
+
+    public void goToLogup(View view) {
+        Intent toLogup = new Intent(this, LogUpActivity.class);
+        startActivity(toLogup);
     }
 }

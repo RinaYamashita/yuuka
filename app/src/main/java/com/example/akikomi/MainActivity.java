@@ -10,6 +10,7 @@ import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ZoomButton;
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     ZoomButton zoomIn;
     ZoomButton zoomOut;
     ImageView imageView;
+    Button button;
 
     @Override
 
@@ -28,6 +30,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         imageView = (ImageView) findViewById(R.id.imageView1);
+        button = (Button) findViewById(R.id.北);
+        button = (Button) findViewById(R.id.南);
+        button = (Button) findViewById(R.id.西);
+        button = (Button) findViewById(R.id.東);
         zoomIn = (ZoomButton) findViewById(R.id.zoomIn);
         zoomOut = (ZoomButton) findViewById(R.id.zoomOut);
 

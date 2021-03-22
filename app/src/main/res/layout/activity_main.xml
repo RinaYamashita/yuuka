@@ -15,75 +15,101 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         app:layout_constraintBottom_toBottomOf="@+id/imageView1"
         app:layout_constraintEnd_toEndOf="@+id/imageView1"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="@+id/imageView1"
         app:layout_constraintTop_toTopOf="@+id/imageView1"
-        app:layout_constraintVertical_bias="0.154" />
-
-    <Button
-        android:id="@+id/北"
-        android:layout_width="62dp"
-        android:layout_height="47dp"
-        android:background="#00F2F2F2"
-        android:onClick="goToNorth"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView1"
-        app:layout_constraintEnd_toEndOf="@+id/imageView1"
-        app:layout_constraintHorizontal_bias="0.682"
-        app:layout_constraintStart_toStartOf="@+id/imageView1"
-        app:layout_constraintTop_toTopOf="@+id/imageView1"
-        app:layout_constraintVertical_bias="0.379" />
-
-    <Button
-        android:id="@+id/西"
-        android:layout_width="59dp"
-        android:layout_height="42dp"
-        android:background="#00FFFFFF"
-        android:onClick="goToWest"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView1"
-        app:layout_constraintEnd_toEndOf="@+id/imageView1"
-        app:layout_constraintHorizontal_bias="0.314"
-        app:layout_constraintStart_toStartOf="@+id/imageView1"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.452"
-        tools:ignore="OnClick" />
-
-    <Button
-        android:id="@+id/東"
-        android:layout_width="60dp"
-        android:layout_height="44dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginRight="60dp"
-        android:background="#00FFFFFF"
-        android:onClick="goToEast"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.441"
-        tools:ignore="OnClick" />
-
-    <Button
-        android:id="@+id/南"
-        android:layout_width="80dp"
-        android:layout_height="41dp"
-        android:background="#00FFFFFF"
-        android:onClick="goToSouth"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.44"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.563" />
+        app:layout_constraintVertical_bias="0.078" />
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="402dp"
+        android:layout_height="593dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.23"
         app:srcCompat="@drawable/zenntai2" />
+
+    <LinearLayout
+        android:layout_width="338dp"
+        android:layout_height="204dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView1"
+        app:layout_constraintVertical_bias="0.8">
+
+        <Button
+            android:id="@+id/東"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#64FFDA"
+            android:onClick="goToEast"
+            android:text="東"
+            tools:ignore="OnClick"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="866dp" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/西"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#69F0AE"
+            android:onClick="goToWest"
+            tools:ignore="OnClick"
+            tools:layout_editor_absoluteX="153dp"
+            tools:layout_editor_absoluteY="745dp"
+            tools:text="西" />
+
+        <View
+            android:id="@+id/View2"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/南"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#18FFFF"
+            android:onClick="goToSouth"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="660dp"
+            tools:text="南" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/北"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#40C4FF"
+            android:onClick="goToNorth"
+            android:text="北"
+            tools:layout_editor_absoluteX="285dp"
+            tools:layout_editor_absoluteY="684dp" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout"

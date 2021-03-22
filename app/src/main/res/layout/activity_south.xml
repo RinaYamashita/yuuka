@@ -6,16 +6,5 @@
     android:layout_height="match_parent"
     tools:context=".SouthActivity">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="567dp"
-        android:layout_height="854dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.871"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.861"
-        app:srcCompat="@drawable/minami1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

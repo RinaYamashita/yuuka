@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SouthActivity"></activity>
+        <activity android:name=".NorthActivity"></activity>
+        <activity android:name=".SouthActivity" />
         <activity android:name=".WestActivity" />
         <activity android:name=".EastActivity" />
         <activity android:name=".LogUpActivity" />

@@ -24,6 +24,7 @@
         android:layout_width="62dp"
         android:layout_height="47dp"
         android:background="#00F2F2F2"
+        android:onClick="goToNorth"
         app:layout_constraintBottom_toBottomOf="@+id/imageView1"
         app:layout_constraintEnd_toEndOf="@+id/imageView1"
         app:layout_constraintHorizontal_bias="0.682"
@@ -64,6 +65,7 @@
         android:layout_width="80dp"
         android:layout_height="41dp"
         android:background="#00FFFFFF"
+        android:onClick="goToSouth"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.44"
@@ -88,14 +90,16 @@
         android:layout_width="183dp"
         android:layout_height="62dp"
         android:layout_gravity="bottom|right"
-        android:layout_marginBottom="84dp"
         android:background="@android:drawable/zoom_plate"
         android:gravity="bottom"
         android:paddingLeft="15dip"
         android:paddingRight="15dip"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976">
 
         <ZoomButton
             android:id="@+id/zoomIn"
@@ -110,6 +114,7 @@
             android:layout_height="40dp"
             android:background="@android:drawable/btn_minus"
             android:onClick="onClickZoomOut" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

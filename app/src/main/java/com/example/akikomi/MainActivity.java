@@ -54,4 +54,23 @@ public class MainActivity extends AppCompatActivity {
         imageView.invalidate();
     }
 
+    public void goToEast(View view) {
+        Intent toEast =new Intent(this, EastActivity.class);
+        startActivity(toEast);
+    }
+
+    public void goToSouth(View view) {
+        Intent toSouth =new Intent(this, SouthActivity.class);
+        startActivity(toSouth);
+    }
+
+    public void goToWest(View view) {
+        Intent toWest =new Intent(this, WestActivity.class);
+        startActivity(toWest);
+    }
+
+    public void goToNorth(View view) {
+        Intent toNorth =new Intent(this, NorthActivity.class);
+        startActivity(toNorth);
+    }
 }

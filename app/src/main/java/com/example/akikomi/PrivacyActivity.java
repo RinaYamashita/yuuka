@@ -16,9 +16,9 @@ public class PrivacyActivity extends AppCompatActivity {
         setContentView(R.layout.activity_privacy);
     }
 
-    public void goToLogin(View view) {
-        Intent toLogin =new Intent(this, LoginActivity.class);
-        startActivity(toLogin);
+    public void goToMain(View view) {
+        Intent toMain =new Intent(this, MainActivity.class);
+        startActivity(toMain);
 
     }
 }

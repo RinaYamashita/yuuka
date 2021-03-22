@@ -13,34 +13,34 @@
         android:layout_height="wrap_content"
         android:text="Choose room"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView1"
-        app:layout_constraintEnd_toEndOf="@+id/imageView1"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="@+id/imageView1"
-        app:layout_constraintTop_toTopOf="@+id/imageView1"
-        app:layout_constraintVertical_bias="0.078" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="402dp"
-        android:layout_height="593dp"
+        android:layout_width="419dp"
+        android:layout_height="294dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.085"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.23"
+        app:layout_constraintVertical_bias="0.324"
         app:srcCompat="@drawable/zenntai2" />
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="338dp"
         android:layout_height="204dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView1"
-        app:layout_constraintVertical_bias="0.8">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87">
 
         <Button
             android:id="@+id/東"
@@ -68,6 +68,7 @@
             android:layout_weight="1"
             android:background="#69F0AE"
             android:onClick="goToWest"
+            android:text="西"
             tools:ignore="OnClick"
             tools:layout_editor_absoluteX="153dp"
             tools:layout_editor_absoluteY="745dp"
@@ -76,9 +77,7 @@
         <View
             android:id="@+id/View2"
             android:layout_width="match_parent"
-            android:layout_height="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            android:layout_height="10dp" />
 
         <Button
             android:id="@+id/南"
@@ -87,6 +86,7 @@
             android:layout_weight="1"
             android:background="#18FFFF"
             android:onClick="goToSouth"
+            android:text="南"
             tools:layout_editor_absoluteX="163dp"
             tools:layout_editor_absoluteY="660dp"
             tools:text="南" />

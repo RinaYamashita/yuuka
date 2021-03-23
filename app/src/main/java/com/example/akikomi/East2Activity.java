@@ -18,4 +18,14 @@ public class East2Activity extends AppCompatActivity {
         Intent toEast =new Intent(this, EastActivity.class);
         startActivity(toEast);
     }
+
+    public void goToEast3(View view) {
+        Intent toEast3 =new Intent(this,East3Activity.class);
+        startActivity(toEast3);
+    }
+
+    public void goToEast4(View view) {
+        Intent toEast4 =new Intent(this,East4Activity.class);
+        startActivity(toEast4);
+    }
 }

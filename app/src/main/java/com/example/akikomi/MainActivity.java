@@ -5,17 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.app.Activity;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
-import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ZoomButton;
-
-import com.example.akikomi.ui.login.LoginActivity;
 
 public class MainActivity extends AppCompatActivity {
     ZoomButton zoomIn;
@@ -30,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         imageView = (ImageView) findViewById(R.id.imageView1);
-        button = (Button) findViewById(R.id.北);
-        button = (Button) findViewById(R.id.南);
-        button = (Button) findViewById(R.id.西);
+        button = (Button) findViewById(R.id.法人本部);
+        button = (Button) findViewById(R.id.学生相談室);
+        button = (Button) findViewById(R.id.保健室);
         button = (Button) findViewById(R.id.東);
         zoomIn = (ZoomButton) findViewById(R.id.zoomIn);
         zoomOut = (ZoomButton) findViewById(R.id.zoomOut);

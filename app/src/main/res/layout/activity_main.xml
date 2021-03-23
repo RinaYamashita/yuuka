@@ -62,7 +62,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/西"
+            android:id="@+id/保健室"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -80,7 +80,7 @@
             android:layout_height="10dp" />
 
         <Button
-            android:id="@+id/南"
+            android:id="@+id/学生相談室"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -99,7 +99,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/北"
+            android:id="@+id/法人本部"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"

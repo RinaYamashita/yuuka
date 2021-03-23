@@ -4,25 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EastActivity">
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.46"
-        app:srcCompat="@drawable/higashi_one" />
+    tools:context=".East2Activity">
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="東館　１F"
+        android:text="東館　２F"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,8 +22,8 @@
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="２F"
-        android:onClick="goToEast2"
+        android:text="１F"
+        android:onClick="goToEast"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button5"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,7 +35,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="３F"
-        android:onClick="goToEast3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -62,20 +49,31 @@
         android:layout_marginStart="36dp"
         android:layout_marginLeft="36dp"
         android:text="４F"
-        android:onClick="goToEast4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button5"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.21" />
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="394dp"
+        android:layout_height="342dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.24"
+        app:srcCompat="@drawable/higashi_two" />
+
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="349dp"
         android:layout_height="260dp"
-        android:layout_marginTop="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8">
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
 
         <LinearLayout
             android:id="@+id/linearLayout3"
@@ -94,7 +92,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#64FFDA"
-                android:onClick="goToSoumu"
                 android:text="総合事務局"
                 tools:ignore="OnClick"
                 tools:layout_editor_absoluteX="133dp"
@@ -113,7 +110,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#69F0AE"
-                android:onClick="goToHoken"
                 android:text="保健室"
                 tools:ignore="OnClick"
                 tools:layout_editor_absoluteX="153dp"
@@ -131,7 +127,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#18FFFF"
-                android:onClick="goToEGakusyuusien"
                 android:text="学生相談室"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp"
@@ -150,7 +145,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#40C4FF"
-                android:onClick="goToE1Houzin"
                 android:text="法人本部"
                 tools:layout_editor_absoluteX="285dp"
                 tools:layout_editor_absoluteY="684dp" />

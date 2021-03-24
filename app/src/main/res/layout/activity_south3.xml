@@ -115,31 +115,42 @@
             app:layout_constraintVertical_bias="0.87">
 
             <Button
-                android:id="@+id/実習室１"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="#64FFDA"
-                android:text="実習室(母性・小児看護)"
-                tools:ignore="OnClick"
-                tools:layout_editor_absoluteX="133dp"
-                tools:layout_editor_absoluteY="866dp" />
-
-            <View
-                android:id="@+id/view1"
-                android:layout_width="match_parent"
-                android:layout_height="10dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
-
-            <Button
-                android:id="@+id/実習室２"
+                android:id="@+id/ラーニングコモンズ"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#69F0AE"
-                android:text="実習室(基礎・成人看護)"
-                tools:ignore="OnClick"
+                android:text="ラーニングコモンズ３"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="745dp" />
+
+            <View
+                android:id="@+id/View167"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/講義室301A"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#69F0AE"
+                android:text="講義室 301A"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="745dp" />
+
+            <View
+                android:id="@+id/View1"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/講義室301B"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#69F0AE"
+                android:text="講義室 301B"
                 tools:layout_editor_absoluteX="153dp"
                 tools:layout_editor_absoluteY="745dp" />
 
@@ -149,31 +160,229 @@
                 android:layout_height="10dp" />
 
             <Button
-                android:id="@+id/実習室３"
+                android:id="@+id/講義室302"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#18FFFF"
-                android:text="実習室(地域・在宅・老年・精神看護)"
-                tools:layout_editor_absoluteX="163dp"
-                tools:layout_editor_absoluteY="660dp" />
+                android:background="#69F0AE"
+                android:text="講義室 302"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="745dp" />
 
             <View
-                android:id="@+id/view3"
+                android:id="@+id/View3"
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+                android:layout_height="10dp" />
 
             <Button
-                android:id="@+id/助教助手室"
+                android:id="@+id/講義室303A"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#40C4FF"
-                android:text="助教助手室"
-                tools:layout_editor_absoluteX="285dp"
-                tools:layout_editor_absoluteY="684dp" />
+                android:background="#69F0AE"
+                android:text="講義室 303A"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="745dp" />
+
+            <View
+                android:id="@+id/View4"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/講義室303B"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#69F0AE"
+                android:text="講義室 303B"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="745dp" />
+
+            <View
+                android:id="@+id/View5"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/講義室304A"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#69F0AE"
+                android:text="講義室 304A"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="745dp" />
+
+            <View
+                android:id="@+id/View6"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/講義室304B"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#69F0AE"
+                android:text="講義室 304B"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="745dp" />
+
+            <View
+                android:id="@+id/View7"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/講義室305A"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#69F0AE"
+                android:text="講義室 305A"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="745dp" />
+
+            <View
+                android:id="@+id/View8"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/講義室305B"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#69F0AE"
+                android:text="講義室 305B"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="745dp" />
+
+            <View
+                android:id="@+id/View9"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/講義室306"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#69F0AE"
+                android:text="講義室 306"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="745dp" />
+
+            <View
+                android:id="@+id/View10"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/講義室307"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#69F0AE"
+                android:text="講義室 307"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="745dp" />
+
+            <View
+                android:id="@+id/View112"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/講義室308"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#69F0AE"
+                android:text="講義室 308"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="745dp" />
+
+            <View
+                android:id="@+id/View12"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/講義室309"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#69F0AE"
+                android:text="講義室 309"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="745dp" />
+
+            <View
+                android:id="@+id/View13"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/講義室310"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#69F0AE"
+                android:text="講義室 310"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="745dp" />
+
+            <View
+                android:id="@+id/View14"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/講義室311"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#69F0AE"
+                android:text="講義室 311"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="745dp" />
+
+            <View
+                android:id="@+id/View15"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/講義室312"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#69F0AE"
+                android:text="講義室 312"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="745dp" />
+
+            <View
+                android:id="@+id/View16"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/講義室313"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#69F0AE"
+                android:text="講義室 313"
+                tools:layout_editor_absoluteX="153dp"
+                tools:layout_editor_absoluteY="745dp" />
+
+            <View
+                android:id="@+id/View17"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
 
         </LinearLayout>
 

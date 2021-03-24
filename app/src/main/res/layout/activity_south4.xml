@@ -114,69 +114,173 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.87">
 
-            <Button
-                android:id="@+id/実習室１"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="#64FFDA"
-                android:text="実習室(母性・小児看護)"
-                tools:ignore="OnClick"
-                tools:layout_editor_absoluteX="133dp"
-                tools:layout_editor_absoluteY="866dp" />
+    <Button
+        android:id="@+id/図書室"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#64FFDA"
+        android:text="図書室"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="866dp" />
 
-            <View
-                android:id="@+id/view1"
-                android:layout_width="match_parent"
-                android:layout_height="10dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-            <Button
-                android:id="@+id/実習室２"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="#69F0AE"
-                android:text="実習室(基礎・成人看護)"
-                tools:ignore="OnClick"
-                tools:layout_editor_absoluteX="153dp"
-                tools:layout_editor_absoluteY="745dp" />
+    <Button
+        android:id="@+id/電気電子工房"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#69F0AE"
+        android:text="電気電子工房"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="745dp" />
 
-            <View
-                android:id="@+id/View2"
-                android:layout_width="match_parent"
-                android:layout_height="10dp" />
+    <View
+        android:id="@+id/View2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
 
-            <Button
-                android:id="@+id/実習室３"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="#18FFFF"
-                android:text="実習室(地域・在宅・老年・精神看護)"
-                tools:layout_editor_absoluteX="163dp"
-                tools:layout_editor_absoluteY="660dp" />
+    <Button
+        android:id="@+id/ラーニングコモンズ４"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#18FFFF"
+        android:text="ラーニングコモンズ４"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="660dp" />
 
-            <View
-                android:id="@+id/view3"
-                android:layout_width="match_parent"
-                android:layout_height="10dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-            <Button
-                android:id="@+id/助教助手室"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="#40C4FF"
-                android:text="助教助手室"
-                tools:layout_editor_absoluteX="285dp"
-                tools:layout_editor_absoluteY="684dp" />
+    <Button
+        android:id="@+id/ラボラトリー401"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#40C4FF"
+        android:text="ラボラトリー 401"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="684dp" />
 
-        </LinearLayout>
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
+    <Button
+        android:id="@+id/ラボラトリー402"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#64FFDA"
+        android:text="ラボラトリー 402"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="866dp" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ラボラトリー403"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#69F0AE"
+        android:text="ラボラトリー 403"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="745dp" />
+
+    <View
+        android:id="@+id/View7"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/ラボラトリー404"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#18FFFF"
+        android:text="ラボラトリー 404"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="660dp" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ラボラトリー405"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#40C4FF"
+        android:text="ラボラトリー 405"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="684dp" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/化学工房"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#64FFDA"
+        android:text="化学工房"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="866dp" />
+
+    <View
+        android:id="@+id/View8"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/会議室"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#69F0AE"
+        android:text="会議室"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="745dp" />
+
+    <View
+        android:id="@+id/view19"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>
 
     </ScrollView>
 

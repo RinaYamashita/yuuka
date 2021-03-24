@@ -91,7 +91,7 @@
             app:layout_constraintVertical_bias="0.87">
 
             <Button
-                android:id="@+id/総合事務局"
+                android:id="@+id/心理教育相談室"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -110,7 +110,7 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <Button
-                android:id="@+id/保健室"
+                android:id="@+id/基礎実習室"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -128,7 +128,7 @@
                 android:layout_height="10dp" />
 
             <Button
-                android:id="@+id/学生相談室"
+                android:id="@+id/聴力検査室"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -147,7 +147,7 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <Button
-                android:id="@+id/法人本部"
+                android:id="@+id/臨床演習室"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"

@@ -28,4 +28,14 @@ public class East2Activity extends AppCompatActivity {
         Intent toEast4 =new Intent(this,East4Activity.class);
         startActivity(toEast4);
     }
+
+    public void goToE2Sinri(View view) {
+        Intent toE2Sinri=new Intent(this,E2SinriActivity.class);
+        startActivity(toE2Sinri);
+    }
+
+    public void goToE2Kiso(View view) {
+        Intent toE2Kiso=new Intent(this,E2KisoActivity.class);
+        startActivity(toE2Kiso);
+    }
 }

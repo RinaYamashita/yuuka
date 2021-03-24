@@ -77,7 +77,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.711">
 
         <LinearLayout
             android:id="@+id/linearLayout3"
@@ -91,13 +92,13 @@
             app:layout_constraintVertical_bias="0.87">
 
             <Button
-                android:id="@+id/総合事務局"
+                android:id="@+id/心理教育相談室"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#64FFDA"
-                android:text="総合事務局"
-                tools:ignore="OnClick"
+                android:text="心理教育相談室"
+                android:onClick="goToE2Sinri"
                 tools:layout_editor_absoluteX="133dp"
                 tools:layout_editor_absoluteY="866dp" />
 
@@ -109,16 +110,15 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <Button
-                android:id="@+id/保健室"
+                android:id="@+id/基礎実習室"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#69F0AE"
-                android:text="保健室"
-                tools:ignore="OnClick"
+                android:text="基礎実習室"
+                android:onClick="goToE2Kiso"
                 tools:layout_editor_absoluteX="153dp"
-                tools:layout_editor_absoluteY="745dp"
-                tools:text="保健室" />
+                tools:layout_editor_absoluteY="745dp" />
 
             <View
                 android:id="@+id/View2"
@@ -126,15 +126,14 @@
                 android:layout_height="10dp" />
 
             <Button
-                android:id="@+id/学生相談室"
+                android:id="@+id/聴力検査室"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#18FFFF"
-                android:text="学生相談室"
+                android:text="聴力検査室"
                 tools:layout_editor_absoluteX="163dp"
-                tools:layout_editor_absoluteY="660dp"
-                tools:text="学生相談室" />
+                tools:layout_editor_absoluteY="660dp" />
 
             <View
                 android:id="@+id/view3"
@@ -144,14 +143,123 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <Button
-                android:id="@+id/法人本部"
+                android:id="@+id/臨床演習室"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#40C4FF"
-                android:text="法人本部"
+                android:text="臨床演習室"
                 tools:layout_editor_absoluteX="285dp"
                 tools:layout_editor_absoluteY="684dp" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/モニタリングルーム"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#40C4FF"
+                android:text="モニタリングルーム"
+                tools:layout_editor_absoluteX="285dp"
+                tools:layout_editor_absoluteY="684dp" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/プレイルーム"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#40C4FF"
+                android:text="プレイルーム"
+                tools:layout_editor_absoluteX="285dp"
+                tools:layout_editor_absoluteY="684dp" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/演習室１"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#40C4FF"
+                android:text="演習室１"
+                tools:layout_editor_absoluteX="285dp"
+                tools:layout_editor_absoluteY="684dp" />
+
+            <View
+                android:id="@+id/view7"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/演習室２"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#40C4FF"
+                android:text="演習室２"
+                tools:layout_editor_absoluteX="285dp"
+                tools:layout_editor_absoluteY="684dp" />
+
+            <View
+                android:id="@+id/view8"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/共同研究室"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#40C4FF"
+                android:text="共同研究室"
+                tools:layout_editor_absoluteX="285dp"
+                tools:layout_editor_absoluteY="684dp" />
+
+            <View
+                android:id="@+id/view9"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/カンファレンス"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#40C4FF"
+                android:text="カンファレンス"
+                tools:layout_editor_absoluteX="285dp"
+                tools:layout_editor_absoluteY="684dp" />
+
+            <View
+                android:id="@+id/view10"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
 
         </LinearLayout>
 

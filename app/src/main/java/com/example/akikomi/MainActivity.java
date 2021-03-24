@@ -24,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         imageView = (ImageView) findViewById(R.id.imageView1);
-        button = (Button) findViewById(R.id.法人本部);
-        button = (Button) findViewById(R.id.学生相談室);
-        button = (Button) findViewById(R.id.保健室);
+        button = (Button) findViewById(R.id.臨床演習室);
+        button = (Button) findViewById(R.id.聴力検査室);
+        button = (Button) findViewById(R.id.基礎実習室);
         button = (Button) findViewById(R.id.東);
         zoomIn = (ZoomButton) findViewById(R.id.zoomIn);
         zoomOut = (ZoomButton) findViewById(R.id.zoomOut);

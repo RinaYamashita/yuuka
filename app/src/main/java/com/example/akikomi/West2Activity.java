@@ -6,17 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class WestActivity extends AppCompatActivity {
+public class West2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_west);
+        setContentView(R.layout.activity_west2);
     }
 
-    public void goToWest2(View view) {
-        Intent toWest2 =new Intent(this,West2Activity.class);
-        startActivity(toWest2);
+    public void goToWest(View view) {
+        Intent toWest =new Intent(this,WestActivity.class);
+        startActivity(toWest);
     }
 
     public void goToWest3(View view) {

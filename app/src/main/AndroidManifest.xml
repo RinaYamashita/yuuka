@@ -13,15 +13,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".North4Activity"></activity>
+        <activity android:name=".South5Activity"></activity>
+        <activity android:name=".South4Activity" />
+        <activity android:name=".South3Activity" />
+        <activity android:name=".South2Activity" />
+        <activity android:name=".West4Activity" />
+        <activity android:name=".West3Activity" />
+        <activity android:name=".West2Activity" />
+        <activity android:name=".North4Activity" />
         <activity android:name=".North3Activity" />
         <activity android:name=".North2Activity" />
         <activity android:name=".E2KisoActivity" />
         <activity android:name=".E2SinriActivity" />
-        <activity
-            android:name=".MainActivity2"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".East4Activity" />
         <activity android:name=".East3Activity" />
         <activity android:name=".East2Activity" />

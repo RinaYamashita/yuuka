@@ -71,13 +71,14 @@
         app:layout_constraintVertical_bias="0.209" />
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="349dp"
         android:layout_height="260dp"
-        android:layout_marginTop="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8">
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.711">
 
         <LinearLayout
             android:id="@+id/linearLayout3"
@@ -91,14 +92,12 @@
             app:layout_constraintVertical_bias="0.87">
 
             <Button
-                android:id="@+id/E301"
+                android:id="@+id/N201"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#64FFDA"
-                android:onClick="goToSoumu"
-                android:text="総合事務局"
-                tools:ignore="OnClick"
+                android:text=" N201 講義室"
                 tools:layout_editor_absoluteX="133dp"
                 tools:layout_editor_absoluteY="866dp" />
 
@@ -110,16 +109,14 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <Button
-                android:id="@+id/E302"
+                android:id="@+id/N202"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#69F0AE"
-                android:text="保健室"
-                tools:ignore="OnClick"
+                android:text="N202 講義室"
                 tools:layout_editor_absoluteX="153dp"
-                tools:layout_editor_absoluteY="745dp"
-                />
+                tools:layout_editor_absoluteY="745dp" />
 
             <View
                 android:id="@+id/View2"
@@ -127,15 +124,14 @@
                 android:layout_height="10dp" />
 
             <Button
-                android:id="@+id/E303"
+                android:id="@+id/N203"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#18FFFF"
-                android:text="学生相談室"
+                android:text="N203 PC教室"
                 tools:layout_editor_absoluteX="163dp"
-                tools:layout_editor_absoluteY="660dp"
-                />
+                tools:layout_editor_absoluteY="660dp" />
 
             <View
                 android:id="@+id/view3"
@@ -145,18 +141,143 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <Button
-                android:id="@+id/カンファレンス１"
+                android:id="@+id/N204"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#40C4FF"
-                android:text="法人本部"
+                android:text="N204 PC教室"
                 tools:layout_editor_absoluteX="285dp"
                 tools:layout_editor_absoluteY="684dp" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/N205"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#40C4FF"
+                android:text="N205 PC教室"
+                tools:layout_editor_absoluteX="285dp"
+                tools:layout_editor_absoluteY="684dp" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/N206"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#40C4FF"
+                android:text="N203 講義室"
+                tools:layout_editor_absoluteX="285dp"
+                tools:layout_editor_absoluteY="684dp" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/N207"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#40C4FF"
+                android:text="N207 講義室"
+                tools:layout_editor_absoluteX="285dp"
+                tools:layout_editor_absoluteY="684dp" />
+
+            <View
+                android:id="@+id/view13"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/N208"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#40C4FF"
+                android:text="N208 講義室"
+                tools:layout_editor_absoluteX="285dp"
+                tools:layout_editor_absoluteY="684dp" />
+
+            <View
+                android:id="@+id/view84"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/N209"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#40C4FF"
+                android:text="N209 講義室"
+                tools:layout_editor_absoluteX="285dp"
+                tools:layout_editor_absoluteY="684dp" />
+
+            <View
+                android:id="@+id/view9"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/N210A"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#40C4FF"
+                android:text="N210 講義室A"
+                tools:layout_editor_absoluteX="285dp"
+                tools:layout_editor_absoluteY="684dp" />
+
+            <View
+                android:id="@+id/view61"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/N210B"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#40C4FF"
+                android:text="N210 講義室B"
+                tools:layout_editor_absoluteX="285dp"
+                tools:layout_editor_absoluteY="684dp" />
+
+            <View
+                android:id="@+id/view7"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
 
         </LinearLayout>
 
 
     </ScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

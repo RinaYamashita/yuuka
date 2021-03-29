@@ -128,7 +128,7 @@
         android:layout_width="70dp"
         android:layout_height="40dp"
         android:background="#FF5252"
-        android:text="1F"
+        android:text="１F"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

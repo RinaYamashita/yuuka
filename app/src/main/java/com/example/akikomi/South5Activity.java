@@ -33,4 +33,9 @@ public class South5Activity extends AppCompatActivity {
         Intent toSouth4 =new Intent(this,South4Activity.class);
         startActivity(toSouth4);
     }
+    public void goToMain(View view) {
+        Intent toMain =new Intent(this,MainActivity.class);
+        startActivity(toMain);
+    }
+
 }

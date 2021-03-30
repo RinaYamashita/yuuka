@@ -27,4 +27,9 @@ public class East4Activity extends AppCompatActivity {
         Intent toEast3 =new Intent(this,East3Activity.class);
         startActivity(toEast3);
     }
+
+    public void goToMain(View view) {
+        Intent toMain =new Intent(this,MainActivity.class);
+        startActivity(toMain);
+    }
 }

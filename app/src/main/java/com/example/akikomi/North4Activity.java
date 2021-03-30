@@ -28,4 +28,9 @@ public class North4Activity extends AppCompatActivity {
         Intent toNorth3 =new Intent(this,North3Activity.class);
         startActivity(toNorth3);
     }
+
+    public void goToMain(View view) {
+        Intent toMain =new Intent(this,MainActivity.class);
+        startActivity(toMain);
+    }
 }

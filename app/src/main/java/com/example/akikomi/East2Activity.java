@@ -38,4 +38,9 @@ public class East2Activity extends AppCompatActivity {
         Intent toE2Kiso=new Intent(this,E2KisoActivity.class);
         startActivity(toE2Kiso);
     }
+
+    public void goToMain(View view) {
+        Intent toMain =new Intent(this,MainActivity.class);
+        startActivity(toMain);
+    }
 }

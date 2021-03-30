@@ -27,4 +27,9 @@ public class North2Activity extends AppCompatActivity {
         Intent toNorth4 =new Intent(this,North4Activity.class);
         startActivity(toNorth4);
     }
+
+    public void goToMain(View view) {
+        Intent toMain =new Intent(this,MainActivity.class);
+        startActivity(toMain);
+    }
 }

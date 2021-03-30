@@ -28,4 +28,9 @@ public class West3Activity extends AppCompatActivity {
         Intent toWest4 =new Intent(this,West4Activity.class);
         startActivity(toWest4);
     }
+
+    public void goToMain(View view) {
+        Intent toMain =new Intent(this,MainActivity.class);
+        startActivity(toMain);
+    }
 }

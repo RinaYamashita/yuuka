@@ -11,13 +11,14 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="Choose room"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.103" />
+        app:layout_constraintVertical_bias="0.100000024" />
 
     <ImageView
         android:id="@+id/imageView1"
@@ -33,14 +34,14 @@
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="338dp"
-        android:layout_height="204dp"
+        android:layout_width="330dp"
+        android:layout_height="180dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.87">
+        app:layout_constraintVertical_bias="0.85">
 
         <Button
             android:id="@+id/東"
@@ -50,6 +51,7 @@
             android:background="#64FFDA"
             android:onClick="goToEast"
             android:text="東"
+            android:fontFamily="sans-serif-condensed-medium"
             tools:ignore="OnClick"
             tools:layout_editor_absoluteX="133dp"
             tools:layout_editor_absoluteY="866dp" />
@@ -69,6 +71,7 @@
             android:background="#69F0AE"
             android:onClick="goToWest"
             android:text="西"
+            android:fontFamily="sans-serif-condensed-medium"
             tools:ignore="OnClick"
             tools:layout_editor_absoluteX="153dp"
             tools:layout_editor_absoluteY="745dp"
@@ -87,6 +90,7 @@
             android:background="#18FFFF"
             android:onClick="goToSouth"
             android:text="南"
+            android:fontFamily="sans-serif-condensed-medium"
             tools:layout_editor_absoluteX="163dp"
             tools:layout_editor_absoluteY="660dp"
             tools:text="南" />
@@ -106,6 +110,7 @@
             android:background="#40C4FF"
             android:onClick="goToNorth"
             android:text="北"
+            android:fontFamily="sans-serif-condensed-medium"
             tools:layout_editor_absoluteX="285dp"
             tools:layout_editor_absoluteY="684dp" />
 
@@ -113,8 +118,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="183dp"
-        android:layout_height="62dp"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
         android:layout_gravity="bottom|right"
         android:background="@android:drawable/zoom_plate"
         android:gravity="bottom"
@@ -122,10 +127,10 @@
         android:paddingRight="15dip"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976">
+        app:layout_constraintVertical_bias="0.96">
 
         <ZoomButton
             android:id="@+id/zoomIn"

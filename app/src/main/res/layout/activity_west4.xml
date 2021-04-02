@@ -10,7 +10,7 @@
         android:id="@+id/imageView2"
         android:layout_width="409dp"
         android:layout_height="341dp"
-        android:layout_marginBottom="204dp"
+        android:layout_marginBottom="212dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,53 +20,30 @@
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="73dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="26dp"
-        android:layout_marginLeft="26dp"
-        android:layout_marginEnd="329dp"
-        android:layout_marginRight="329dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:onClick="goToMain"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.01"
         app:srcCompat="@android:drawable/ic_menu_revert" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="1dp"
-        android:text="別館を選択する"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
-        app:layout_constraintVertical_bias="0.0" />
 
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="171dp"
-        android:layout_marginLeft="171dp"
-        android:layout_marginTop="127dp"
-        android:layout_marginEnd="176dp"
-        android:layout_marginRight="176dp"
-        android:layout_marginBottom="585dp"
         android:text="西館　４F"
+        android:fontFamily="sans-serif-condensed-medium"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <TextView
         android:id="@+id/textView6"
@@ -75,6 +52,7 @@
         android:background="#FF5252"
         android:gravity="center"
         android:text="４F"
+        android:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.92"
@@ -89,6 +67,7 @@
         android:background="#17000000"
         android:onClick="goToWest"
         android:text="１F"
+        android:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.099"
@@ -103,6 +82,7 @@
         android:background="#17000000"
         android:onClick="goToWest2"
         android:text="２F"
+        android:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.372"
@@ -117,6 +97,7 @@
         android:background="#17000000"
         android:onClick="goToWest3"
         android:text="３F"
+        android:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.656"
@@ -137,8 +118,8 @@
 
         <LinearLayout
             android:id="@+id/linearLayout3"
-            android:layout_width="338dp"
-            android:layout_height="204dp"
+            android:layout_width="330dp"
+            android:layout_height="200dp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -153,6 +134,7 @@
                 android:layout_weight="1"
                 android:background="#69F0AE"
                 android:text="講義室 401"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="153dp"
                 tools:layout_editor_absoluteY="745dp" />
 
@@ -168,6 +150,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="心理臨床室 402"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -185,6 +168,7 @@
                 android:layout_weight="1"
                 android:background="#40C4FF"
                 android:text="生理実験準備室 403"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="285dp"
                 tools:layout_editor_absoluteY="684dp" />
 
@@ -202,6 +186,7 @@
                 android:layout_weight="1"
                 android:background="#69F0AE"
                 android:text="生理実験室 404"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="153dp"
                 tools:layout_editor_absoluteY="745dp" />
 
@@ -217,6 +202,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="行動分析室 405"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -234,6 +220,7 @@
                 android:layout_weight="1"
                 android:background="#40C4FF"
                 android:text="行動観察室 406"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="285dp"
                 tools:layout_editor_absoluteY="684dp" />
 
@@ -251,6 +238,7 @@
                 android:layout_weight="1"
                 android:background="#40C4FF"
                 android:text="心理実験室 407"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="285dp"
                 tools:layout_editor_absoluteY="684dp" />
 
@@ -268,6 +256,7 @@
                 android:layout_weight="1"
                 android:background="#40C4FF"
                 android:text="心理実験制御室 408"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="285dp"
                 tools:layout_editor_absoluteY="684dp" />
 
@@ -285,6 +274,7 @@
                 android:layout_weight="1"
                 android:background="#40C4FF"
                 android:text="講義室 407"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="285dp"
                 tools:layout_editor_absoluteY="684dp" />
 
@@ -302,6 +292,7 @@
                 android:layout_weight="1"
                 android:background="#69F0AE"
                 android:text="研究室01"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="153dp"
                 tools:layout_editor_absoluteY="745dp" />
 
@@ -317,6 +308,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室02"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -334,6 +326,7 @@
                 android:layout_weight="1"
                 android:background="#40C4FF"
                 android:text="研究室03"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="285dp"
                 tools:layout_editor_absoluteY="684dp" />
 
@@ -351,6 +344,7 @@
                 android:layout_weight="1"
                 android:background="#64FFDA"
                 android:text="研究室04"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="133dp"
                 tools:layout_editor_absoluteY="866dp" />
 
@@ -368,6 +362,7 @@
                 android:layout_weight="1"
                 android:background="#69F0AE"
                 android:text="研究室05"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="153dp"
                 tools:layout_editor_absoluteY="745dp" />
 
@@ -383,6 +378,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室06"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -400,6 +396,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室07"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -417,6 +414,7 @@
                 android:layout_weight="1"
                 android:background="#40C4FF"
                 android:text="研究室11"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="285dp"
                 tools:layout_editor_absoluteY="684dp" />
 
@@ -434,6 +432,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室12"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -451,6 +450,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室13"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -468,6 +468,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室14"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -485,6 +486,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室15"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -502,6 +504,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室16"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -519,6 +522,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室17"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -536,6 +540,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室18"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -553,6 +558,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室19"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -570,6 +576,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室20"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -587,6 +594,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室21"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -604,6 +612,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室22"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -621,6 +630,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室23"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -638,6 +648,7 @@
                 android:layout_weight="1"
                 android:background="#40C4FF"
                 android:text="研究室24"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="285dp"
                 tools:layout_editor_absoluteY="684dp" />
 
@@ -655,6 +666,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室25"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -672,6 +684,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室26"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -683,7 +696,6 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
 
-
             <Button
                 android:id="@+id/研究室31"
                 android:layout_width="match_parent"
@@ -691,6 +703,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室31"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -708,6 +721,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室32"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -725,6 +739,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室33"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -742,6 +757,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室34"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -759,6 +775,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室41"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -776,6 +793,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室42"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -793,6 +811,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="研究室43"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 

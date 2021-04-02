@@ -11,7 +11,7 @@
         android:id="@+id/imageView2"
         android:layout_width="409dp"
         android:layout_height="341dp"
-        android:layout_marginBottom="204dp"
+        android:layout_marginBottom="224dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,47 +21,26 @@
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="73dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="26dp"
-        android:layout_marginLeft="26dp"
-        android:layout_marginEnd="329dp"
-        android:layout_marginRight="329dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:onClick="goToMain"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.01"
         app:srcCompat="@android:drawable/ic_menu_revert" />
 
     <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="1dp"
-        android:text="別館を選択する"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="171dp"
-        android:layout_marginLeft="171dp"
-        android:layout_marginEnd="176dp"
-        android:layout_marginRight="176dp"
         android:text="西館　１F"
+        android:fontFamily="sans-serif-condensed-medium"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.104" />
@@ -73,6 +52,7 @@
         android:background="#FF5252"
         android:gravity="center"
         android:text="１F"
+        android:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.1"
@@ -87,6 +67,7 @@
         android:background="#17000000"
         android:onClick="goToWest2"
         android:text="２F"
+        android:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.38"
@@ -101,6 +82,7 @@
         android:background="#17000000"
         android:onClick="goToWest3"
         android:text="３F"
+        android:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.65"
@@ -115,6 +97,7 @@
         android:background="#17000000"
         android:onClick="goToWest4"
         android:text="４F"
+        android:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.92"
@@ -135,8 +118,8 @@
 
         <LinearLayout
             android:id="@+id/linearLayout3"
-            android:layout_width="338dp"
-            android:layout_height="204dp"
+            android:layout_width="330dp"
+            android:layout_height="200dp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -151,6 +134,7 @@
                 android:layout_weight="1"
                 android:background="#64FFDA"
                 android:text="ハピネスホール"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="133dp"
                 tools:layout_editor_absoluteY="866dp" />
 
@@ -168,6 +152,7 @@
                 android:layout_weight="1"
                 android:background="#69F0AE"
                 android:text="キャリアサポートセンター"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="153dp"
                 tools:layout_editor_absoluteY="745dp" />
 
@@ -183,6 +168,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="アクティビティルームA"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -200,6 +186,7 @@
                 android:layout_weight="1"
                 android:background="#40C4FF"
                 android:text="アクティビティルームB"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="285dp"
                 tools:layout_editor_absoluteY="684dp" />
 
@@ -217,6 +204,7 @@
                 android:layout_weight="1"
                 android:background="#64FFDA"
                 android:text="アクティビティルームC"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="133dp"
                 tools:layout_editor_absoluteY="866dp" />
 
@@ -234,6 +222,7 @@
                 android:layout_weight="1"
                 android:background="#69F0AE"
                 android:text="アクティビティルームD"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="153dp"
                 tools:layout_editor_absoluteY="745dp" />
 
@@ -249,6 +238,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="アクティビティルームE"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -266,6 +256,7 @@
                 android:layout_weight="1"
                 android:background="#40C4FF"
                 android:text="エクササイズルーム"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="285dp"
                 tools:layout_editor_absoluteY="684dp" />
 
@@ -283,6 +274,7 @@
                 android:layout_weight="1"
                 android:background="#64FFDA"
                 android:text="男子更衣室"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="133dp"
                 tools:layout_editor_absoluteY="866dp" />
 
@@ -300,6 +292,7 @@
                 android:layout_weight="1"
                 android:background="#69F0AE"
                 android:text="女子更衣室"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="153dp"
                 tools:layout_editor_absoluteY="745dp" />
 
@@ -315,6 +308,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="障害学生支援室"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -332,6 +326,7 @@
                 android:layout_weight="1"
                 android:background="#40C4FF"
                 android:text="入学センター"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="285dp"
                 tools:layout_editor_absoluteY="684dp" />
 

@@ -36,6 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="南館　１F"
+        android:fontFamily="sans-serif-condensed-medium"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,6 +51,7 @@
         android:background="#FF5252"
         android:gravity="center"
         android:text="１F"
+        android:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.315"
@@ -63,6 +65,7 @@
         android:layout_height="wrap_content"
         android:onClick="goToSouth2"
         android:text="２F"
+        android:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.712"
@@ -78,6 +81,7 @@
         android:layout_marginLeft="8dp"
         android:onClick="goToSouth3"
         android:text="３F"
+        android:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button6"
         app:layout_constraintHorizontal_bias="0.492"
@@ -91,6 +95,7 @@
         android:layout_height="wrap_content"
         android:onClick="goToSouth4"
         android:text="４F"
+        android:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -104,6 +109,7 @@
         android:layout_height="wrap_content"
         android:onClick="goToSouth5"
         android:text="５F"
+        android:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button6"
@@ -138,6 +144,7 @@
                 android:layout_weight="1"
                 android:background="#64FFDA"
                 android:text="アドバンストホール"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:ignore="OnClick"
                 tools:layout_editor_absoluteX="133dp"
                 tools:layout_editor_absoluteY="866dp" />
@@ -156,6 +163,7 @@
                 android:layout_weight="1"
                 android:background="#69F0AE"
                 android:text="嵯峨野ホール"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:ignore="OnClick"
                 tools:layout_editor_absoluteX="153dp"
                 tools:layout_editor_absoluteY="745dp" />
@@ -172,6 +180,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="サイエンスプラザ"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -189,6 +198,7 @@
                 android:layout_weight="1"
                 android:background="#40C4FF"
                 android:text="機械工房"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="285dp"
                 tools:layout_editor_absoluteY="684dp" />
 

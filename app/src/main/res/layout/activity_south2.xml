@@ -20,52 +20,30 @@
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="73dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="26dp"
-        android:layout_marginLeft="26dp"
-        android:layout_marginEnd="329dp"
-        android:layout_marginRight="329dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:onClick="goToMain"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.01"
         app:srcCompat="@android:drawable/ic_menu_revert" />
 
     <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="1dp"
-        android:text="別館を選択する"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="171dp"
-        android:layout_marginLeft="171dp"
-        android:layout_marginTop="127dp"
-        android:layout_marginEnd="176dp"
-        android:layout_marginRight="176dp"
-        android:layout_marginBottom="585dp"
         android:text="南館　２F"
+        android:fontFamily="sans-serif-condensed-medium"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.100000024" />
 
     <TextView
         android:id="@+id/textView8"
@@ -74,6 +52,7 @@
         android:background="#FF5252"
         android:gravity="center"
         android:text="２F"
+        android:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.696"
@@ -87,6 +66,7 @@
         android:layout_height="wrap_content"
         android:onClick="goToSouth"
         android:text="１F"
+        android:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.306"
@@ -102,6 +82,7 @@
         android:layout_marginLeft="8dp"
         android:onClick="goToSouth3"
         android:text="３F"
+        android:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button6"
         app:layout_constraintHorizontal_bias="0.492"
@@ -115,6 +96,7 @@
         android:layout_height="wrap_content"
         android:onClick="goToSouth4"
         android:text="４F"
+        android:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -128,6 +110,7 @@
         android:layout_height="wrap_content"
         android:onClick="goToSouth5"
         android:text="５F"
+        android:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button6"
@@ -146,8 +129,8 @@
 
         <LinearLayout
             android:id="@+id/linearLayout3"
-            android:layout_width="338dp"
-            android:layout_height="204dp"
+            android:layout_width="330dp"
+            android:layout_height="200dp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -162,6 +145,7 @@
                 android:layout_weight="1"
                 android:background="#64FFDA"
                 android:text="情報工房"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="133dp"
                 tools:layout_editor_absoluteY="866dp" />
 
@@ -179,6 +163,7 @@
                 android:layout_weight="1"
                 android:background="#69F0AE"
                 android:text="ラーニングコモンズ１"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="153dp"
                 tools:layout_editor_absoluteY="745dp" />
 
@@ -194,6 +179,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="ラーニングコモンズ２"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -211,6 +197,7 @@
                 android:layout_weight="1"
                 android:background="#40C4FF"
                 android:text="学生実験室１"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="285dp"
                 tools:layout_editor_absoluteY="684dp" />
 
@@ -228,6 +215,7 @@
                 android:layout_weight="1"
                 android:background="#64FFDA"
                 android:text="学生実験室２"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="133dp"
                 tools:layout_editor_absoluteY="866dp" />
 
@@ -245,6 +233,7 @@
                 android:layout_weight="1"
                 android:background="#69F0AE"
                 android:text="学生実験室３"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="153dp"
                 tools:layout_editor_absoluteY="745dp" />
 
@@ -260,6 +249,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="学生実験室４"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -277,6 +267,7 @@
                 android:layout_weight="1"
                 android:background="#40C4FF"
                 android:text="学生実験室５"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="285dp"
                 tools:layout_editor_absoluteY="684dp" />
 
@@ -294,6 +285,7 @@
                 android:layout_weight="1"
                 android:background="#64FFDA"
                 android:text="学生実験室６"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="133dp"
                 tools:layout_editor_absoluteY="866dp" />
 
@@ -311,6 +303,7 @@
                 android:layout_weight="1"
                 android:background="#69F0AE"
                 android:text="講義室 201"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="153dp"
                 tools:layout_editor_absoluteY="745dp" />
 
@@ -326,6 +319,7 @@
                 android:layout_weight="1"
                 android:background="#18FFFF"
                 android:text="講義室 202"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="163dp"
                 tools:layout_editor_absoluteY="660dp" />
 
@@ -343,6 +337,7 @@
                 android:layout_weight="1"
                 android:background="#40C4FF"
                 android:text="講義室 203"
+                android:fontFamily="sans-serif-condensed-medium"
                 tools:layout_editor_absoluteX="285dp"
                 tools:layout_editor_absoluteY="684dp" />
 

@@ -9,6 +9,9 @@ import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.data.PieEntry;
+import com.razerdp.widget.animatedpieview.AnimatedPieView;
+import com.razerdp.widget.animatedpieview.AnimatedPieViewConfig;
+import com.razerdp.widget.animatedpieview.data.SimplePieInfo;
 
 import java.util.ArrayList;
 
@@ -16,35 +19,25 @@ import static android.graphics.Color.DKGRAY;
 
 public class E1HouzinActivity extends AppCompatActivity {
 
-    PieChart pieChart;
-    int[] colorClassArray = new int[] {Color.LTGRAY, Color.CYAN, DKGRAY, Color.GREEN, Color.MAGENTA, Color.RED};
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_e1_houzin);
 
-        pieChart = findViewById(R.id.piechart);
-
-        PieDataSet pieDAtaSet = new PieDataSet(dataValues1(), "");
-        pieDAtaSet.setColors(colorClassArray);
-
-        PieData pieData = new PieData(pieDAtaSet);
-
-        pieChart.setData(pieData);
-        pieChart.invalidate();
+        drawPie();
     }
 
-    private ArrayList<PieEntry> dataValues1(){
-        ArrayList<PieEntry> dataVals = new ArrayList<>();
+    public void drawPie()
+    {
+        AnimatedPieView mAnimatedPieView = findViewById(R.id.animatedPieView);
+        AnimatedPieViewConfig config = new AnimatedPieViewConfig();
+        config.startAngle(-90)// 起始角度偏移
+                .addData(new SimplePieInfo(30, Color.parseColor("#004E89"), "Title1"))
+                .addData(new SimplePieInfo(18.0f, Color.parseColor("#72ddf7"), "Title2")).drawText(true)
+                .duration(2000).textSize(60);// 持续时间
 
-        dataVals.add(new PieEntry(15, "Sun"));
-        dataVals.add(new PieEntry(34, "Mon"));
-        dataVals.add(new PieEntry(23, "Tue"));
-        dataVals.add(new PieEntry(86, "Wed"));
-        dataVals.add(new PieEntry(26, "Thu"));
-        dataVals.add(new PieEntry(17, "Fri"));
-        dataVals.add(new PieEntry(63, "Sat"));
-        return dataVals;
+// 以下两句可以直接用 mAnimatedPieView.start(config); 解决，功能一致
+        mAnimatedPieView.applyConfig(config);
+        mAnimatedPieView.start();
     }
 }
